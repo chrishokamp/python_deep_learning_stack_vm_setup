@@ -48,6 +48,9 @@ cd
 source .bashrc
 echo "Done installing Anaconda"
   
+# install hdf5
+sudo apt-get install libhdf5-serial-dev
+
 # install Anaconda, then nltk, theano, fuel, and blocks
 
 # Install bleeding edge theano
